@@ -62,7 +62,7 @@ function catalogo(){
             cover={<img alt="banda" src={card.imagen} />}
           >
             <Avatar src="https://www.flaticon.com/svg/static/icons/svg/2094/2094510.svg" />
-            <Meta title={cagitrd.titulo} description= {card.description} />
+            <Meta title={card.titulo} description= {card.description} />
           </Card>
           </Col>
 
